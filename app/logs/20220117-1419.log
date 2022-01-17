@@ -1,0 +1,97 @@
+/app # [6n
+/app # [6n
+/app # [6nls
+[1;34mlogs[m            [1;34mmedia[m           [0;0mmerge-list.txt[m
+/app # [6n/app # ls[J/app # screen -L -Logfile logs/20220117-1419.log [J/app # screen -r[J/app # screen -h[J/app # ls logs/[J/app # ls[J/app # # the original resolution will not intact[J/app # ls[J/app # ls logs/[J/app # screen -h[J/app # screen -r[J/app # screen -L -Logfile logs/20220117-1419.log [J/app # ls[J/app # [Jhistor/app # history [J
+   0 ls /
+   1 ls /app/
+   2 cd /app
+   3 ls
+   4 ls-l
+   5 ls -l
+   6 touch file2
+   7 ls
+   8 pwd
+   9 ls
+  10 ls ~/
+  11 ls ~/ -a
+  12 cat ~/.ash_history 
+  13 apk update
+  14 apk search ffmpeg
+  15 apk install ffmpeg
+  16 apk
+  17 apk add ffmpeg
+  18 ls
+  19 ls /
+  20 ls /media/
+  21 mkdir media
+  22 ls
+  23 ls media/
+  24 ls
+  25 du -sh media/
+  26 ls
+  27 vi 
+  28 vi merge-list.txt
+  29 ls
+  30 ls media/
+  31 ls media/*
+  32 ls media/* | sed -e 's/^/aa/'
+  33 ls media/* | sed -e 's/^/file \\'/'
+  34 ls media/* | sed -e 's/^/file \\''/'
+  35 ls media/* | sed -e 's/^/file \''/'
+  36 ls media/* | sed -e 's/^/file '''/'
+  37 ls media/* | sed -e 's/^/file '\''/'
+  38 ls media/* | sed -e 's/^/file '\''/' | sed -e 's/$/'\'/'
+  39 ls media/* | sed -e 's/^/file '\''/' | sed -e 's/$/'\'/''
+  40 ls media/* | sed -e 's/^/file '\''/' | sed -e 's/$/'\'/'' > merge-list.txt 
+  41 cat merge-list.txt 
+  42 ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.mp4
+  43 ls
+  44 ffmpeg -f concat -safe 0 -i merge-list.txt  -c copy media/centos7-disk-baru-untuk_rootfs_LVM.mp4
+  45 ls
+  46 mkdir logs
+  47 cd logs
+  48 apk add screen
+  49 screen --help
+  50 ls
+  51 cd ..
+  52 ls
+  53 screen -Logfile logs/20220117-1419.log 
+  54 screen -ls
+  55 screen -ls
+  56 screen -r
+  57 ls
+  58 cat merge-list.txt 
+  59 rm merge-list.txt 
+  60 ls media/
+  61 rm media/centos7-disk-baru-untuk_rootfs_LVM.mp4 
+  62 ls media/* | sed -e 's/^/file '\''/' | sed -e 's/$/'\'/'' > merge-list.txt 
+  63 cat merge-list.txt 
+  64 ffmpeg -f concat -safe 0 -i merge-list.txt  -c copy media/centos7-disk-baru-untuk_rootfs_LVM.mkv
+  65 ls
+  66 ls -l media/
+  67 screen -ls
+  68 # now, let's remove audio
+  69 input_file=media/centos7-disk-baru-untuk_rootfs_LVM.mkv 
+  70 output_file=media/vid-noaudio.mkv
+  71 echo $input_file
+  72 echo $output_file
+  73 ffmpeg -i $input_file -c copy -an $output_file
+  74 ls
+  75 ls -l media/
+  76 ls -lh media/
+  77 # the original resolution will not intact
+  78 ls
+  79 ls logs/
+  80 screen -h
+  81 screen -r
+  82 screen -L -Logfile logs/20220117-1419.log 
+  83 ls
+  84 history 
+/app # [6n# re,oe[J[J[Jmove aido[J[J[Judo[Jio done
+/app # [6n
+/app # [6n
+/app # [6n
+/app # [6nls
+[1;34mlogs[m            [1;34mmedia[m           [0;0mmerge-list.txt[m
+/app # [6n
